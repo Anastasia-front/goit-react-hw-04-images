@@ -17,6 +17,7 @@ export const Image = styled.img`
   }
 `;
 export const LargePhoto = styled.img`
-  width: 100%;
-  height: 100%;
+  margin: 0 auto;
+  width: 80%;
+  height: 80%;
 `;
