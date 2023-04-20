@@ -87,9 +87,10 @@ export function App() {
       )}
 
       {status === STATUS.rejected && (
-        <Message>
-          Something went wrong... More details about error: {error.message}
-        </Message>
+        <>
+          <Message>Something went wrong...</Message>
+          <Message>More details about error: {error.message}</Message>
+        </>
       )}
       {badRequest && (
         <>
