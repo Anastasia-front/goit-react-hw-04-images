@@ -27,13 +27,6 @@ export class ImagesApiService {
       console.log(error.message);
     }
   }
-  // resetPage() {
-  //   this.page = 1;
-  // }
-
-  // incrementPage() {
-  //   this.page += 1;
-  // }
 
   get query() {
     return this.searchQuery;
